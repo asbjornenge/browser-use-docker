@@ -13,4 +13,5 @@ x11vnc -display :99 \
        -passwd secret \
        -shared &
 
-exec tail -f /dev/null
+#exec tail -f /dev/null
+exec python /app/app.py
